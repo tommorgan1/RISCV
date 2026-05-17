@@ -6,6 +6,7 @@ FetchContent_MakeAvailable(Catch2)
 
 add_executable(emu_tests
     test_memory.cpp
+    test_decode.cpp
 )
 target_link_libraries(emu_tests PRIVATE emu_core Catch2::Catch2WithMain)
 include(Catch)

@@ -28,6 +28,7 @@ add_link_options(
 # ── Core emulator library ─────────────────────────────────────────────────────
 add_library(emu_core STATIC
     src/memory.cpp
+    src/decode.cpp
 )
 target_include_directories(emu_core PUBLIC inc)
 
