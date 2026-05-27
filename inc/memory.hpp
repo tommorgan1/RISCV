@@ -3,8 +3,8 @@
 #include <concepts>
 #include <cstddef>
 #include <cstdint>
-#include <vector>
 #include <span>
+#include <vector>
 
 enum class memFault
 {
